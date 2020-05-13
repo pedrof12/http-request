@@ -1,0 +1,21 @@
+{
+  "name": "pedrof12/http-request",
+  "description": "Simple http request",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "João Pedro A. Freitas",
+      "email": "devferitas12@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pedrof\\Http\\": "src/"
+    },
+    "files": []
+  },
+  "require": {
+    "ext-curl": "*"
+  }
+}
